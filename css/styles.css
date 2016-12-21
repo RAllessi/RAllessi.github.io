@@ -13,6 +13,8 @@ body {
 	color: #222;
 	background: #131c23;
 }
+
+
 /********************
 LINK STYLES
 *********************/
@@ -24,6 +26,7 @@ a {
 a:hover {
   color: #6633ff;
 }
+
 
 /********************
 SECTION STYLES
@@ -115,11 +118,11 @@ header .profile-image:hover {
 } 
 
 .tag:hover {
-	background: rgba(00, 00, 00, 0.95);
+	background: rgba(0, 0, 0, 0.95);
 	transform: scale(1.2);
 }
 .location {
-  background: rgba(00, 00, 00, 0.85);
+  background: rgba(0, 0, 0, 0.85);
   font-family: 'Ubuntu', sans-serif;
   color: #415730;
 }
@@ -200,6 +203,7 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
 
 /********************
 PAGE: GALLERY
@@ -288,11 +292,13 @@ div.contact {
 }
 	.contact-info li.twitter a {
 	background-image: url('../img/twitter.png');
-	}
+}
 
+	
 /********************
 RESPONSIVE STYLES
 *********************/
+
 @media screen and (min-width: 560px) and (max-width: 720px) {
 .card {
 	margin: 30px auto;
